@@ -47,6 +47,15 @@ ShopPlusPlus is a full-stack web application for an online bookstore. It allows 
     npm install
     cd ..
 
+dependencies to install:
+npm install axios
+npm install mongoose
+npm install cors
+
+dev dependencies:
+npm install nodemon --save-dev
+npm install concurrently --save-dev
+
 4.  Usage:
     Start the development server:
     npm run dev
