@@ -7,15 +7,13 @@ const Search = ({ onSearchChange }) => {
     const [searchInput, setSearchInput] = useState('');
     const [error, setError] = useState('');
 
-    // Function to handle input change and invoke the parent component's search handler
     const handleInputChange = (event) => {
         const inputValue = event.target.value;
         setSearchInput(inputValue);
 
-        // Invoke the parent component's search handler
+        
         onSearchChange(inputValue);
 
-        // Validation example: Minimum length check
         if (inputValue.length < 3) {
             setError('');
         } else {

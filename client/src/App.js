@@ -5,7 +5,7 @@ import Cart from './components/Cart';
 import './styles/amazon.css';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import BrowserRouter, Route, and Switch from react-router-dom
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 const App = () => {
 	const [show, setShow] = useState(true);
 	const [cart , setCart] = useState([]);

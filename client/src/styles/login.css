@@ -1,6 +1,6 @@
-/* login.css */
+
 .login-page {
-    background-image: url('../Assets/LoginBackground.jpg'); /* Add your background image */
+    background-image: url('../Assets/LoginBackground.jpg'); 
     background-size: cover;
     background-position: center;
     height: 89.5vh;
@@ -19,10 +19,6 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
   }
   
-  /* Rest of the styles remain the same */
-  
-  
-  /* Rest of the styles remain the same */
   
   .login-container h2 {
     margin-top: 10px;
@@ -30,7 +26,7 @@
   }
   
   .login-container input {
-    width: 90%; /* Make input fields fluid */
+    width: 90%; 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -38,7 +34,7 @@
   }
   
   .login-container button {
-    width: 95%; /* Make button fluid */
+    width: 95%; 
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -65,10 +61,10 @@
     text-decoration: underline;
   }
   .login-container p a {
-    color: #007bff; /* Set the color to blue */
-    font-weight: bold; /* Make the text bold */
+    color: #007bff; 
+    font-weight: bold; 
   }
   
   .login-container p a:hover {
-    text-decoration: underline; /* Underline the text on hover */
+    text-decoration: underline; 
   }

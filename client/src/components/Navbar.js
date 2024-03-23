@@ -13,13 +13,13 @@ const Navbar = ({  size, setShow, handleSearchChange }) => {
         color: 'wheat',
         fontSize: '33px',
         textDecoration: 'none',
-        transition: 'color 0.3s ease, text-decoration 0.3s ease', // Add transition for smooth color and text-decoration change
+        transition: 'color 0.3s ease, text-decoration 0.3s ease', 
       }}
       onMouseEnter={(e) => {
-        e.target.style.textDecoration = 'underline'; // Underline on hover
+        e.target.style.textDecoration = 'underline'; 
       }}
       onMouseLeave={(e) => {
-        e.target.style.textDecoration = 'none'; // Remove underline when not hovered
+        e.target.style.textDecoration = 'none';
       }}
     >
       ShopPlusPlus+++
@@ -27,7 +27,7 @@ const Navbar = ({  size, setShow, handleSearchChange }) => {
         </span>
 
         <div className="navbar">
-           {/* <Search onSearchChange={handleSearchChange} />  */}
+           
            <p><i>R U Ready Friend ??</i></p>
         </div>
 
@@ -39,13 +39,13 @@ const Navbar = ({  size, setShow, handleSearchChange }) => {
         color: 'wheat',
         fontSize: '27px',
         textDecoration: 'none',
-        transition: 'color 0.3s ease, text-decoration 0.3s ease', // Add transition for smooth color and text-decoration change
+        transition: 'color 0.3s ease, text-decoration 0.3s ease', 
       }}
       onMouseEnter={(e) => {
-        e.target.style.textDecoration = 'underline'; // Underline on hover
+        e.target.style.textDecoration = 'underline'; 
       }}
       onMouseLeave={(e) => {
-        e.target.style.textDecoration = 'none'; // Remove underline when not hovered
+        e.target.style.textDecoration = 'none'; 
       }}
     >
       Login/Register
@@ -61,13 +61,13 @@ const Navbar = ({  size, setShow, handleSearchChange }) => {
         color: 'wheat',
         fontSize: '30px',
         textDecoration: 'none',
-        transition: 'color 0.3s ease, text-decoration 0.3s ease', // Add transition for smooth color and text-decoration change
+        transition: 'color 0.3s ease, text-decoration 0.3s ease', 
       }}
       onMouseEnter={(e) => {
-        e.target.style.textDecoration = 'underline'; // Underline on hover
+        e.target.style.textDecoration = 'underline'; 
       }}
       onMouseLeave={(e) => {
-        e.target.style.textDecoration = 'none'; // Remove underline when not hovered
+        e.target.style.textDecoration = 'none'; 
       }}
     >
       cart

@@ -4,12 +4,12 @@ import '../styles/amazon.css';
 import Cards from './Cards';
 import Banner from '../Assets/banner.png';
 import Footer from '../Assets/Footer.jpg';
-import Search from './Search'; // Import the Search component
+import Search from './Search'; 
 
 const Amazon = ({ handleClick }) => {
-  const [filteredItems, setFilteredItems] = useState(list); // State to hold filtered items
+  const [filteredItems, setFilteredItems] = useState(list); 
 
-  // Function to handle search input change
+  
   const handleSearchChange = (searchInput) => {
     const filtered = list.filter((item) =>
       item.title.toLowerCase().includes(searchInput.toLowerCase())
@@ -20,7 +20,7 @@ const Amazon = ({ handleClick }) => {
   return (
     <div>
       <section>
-        <Search onSearchChange={handleSearchChange} /> {/* Render the Search component */}
+        <Search onSearchChange={handleSearchChange} />
         {filteredItems.map((item) => (
           <Cards item={item} key={item.id} handleClick={handleClick} />
         ))}
@@ -33,7 +33,7 @@ const Amazon = ({ handleClick }) => {
         style={{
           width: '1519px',
           height: '269px',
-          borderRadius: '9px', // Optional: Add border-radius for a rounded appearance
+          borderRadius: '9px', 
         }}
       />
       
@@ -46,7 +46,7 @@ const Amazon = ({ handleClick }) => {
         style={{
           width: '1519px',
           height: '269px',
-          borderRadius: '9px', // Optional: Add border-radius for a rounded appearance
+          borderRadius: '9px', 
         }}
       />
     </div>
