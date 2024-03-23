@@ -4,7 +4,7 @@ ShopPlusPlus is a full-stack web application for an online bookstore.
 
 # ShopPlusPlus
 
-ShopPlusPlus is a full-stack web application for an online bookstore. It allows users to sign up, log in, browse books, and make purchases.
+ShopPlusPlus is a full-stack web application for an online bookstore. It allows users to sign up, log in, browse books.
 
 ## Technologies Used
 
@@ -34,7 +34,7 @@ ShopPlusPlus is a full-stack web application for an online bookstore. It allows 
 1.  Clone the repository:
 
     ```sh
-    git clone https://github.com/your_username/ShopPlusPlus.git
+    git clone https://github.com/RamaLingeswaraRao950/ShopPlusPlus.git
 
     ```
 
@@ -72,8 +72,8 @@ ShopPlusPlus is a full-stack web application for an online bookstore. It allows 
 
 9.  Deploy the build output to a hosting platform like Vercel or Netlify.
 10. Contact
-    For any inquiries or feedback, please contact [Your Name] via email at [your_email@example.com].
+    For any inquiries or feedback, please contact [Your Name] via email at [princeram950@gmail.com].
 
-Project Link: GitHub Repository
+Project Link: (https://github.com/RamaLingeswaraRao950/ShopPlusPlus/)
 
 Please remember to replace [RamaLingeswaraRao950], [Sivakavi Rama Lingeswara Rao], [princeram950@gmail.com], and [https://github.com/RamaLingeswaraRao950]
