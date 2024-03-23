@@ -1,0 +1,48 @@
+section{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: auto;
+}
+
+.cards{
+    width: 229px;
+    padding: 23px;
+    margin: auto;
+}
+.cards:hover{
+    box-shadow: 0px 9px 9px 9px darkorange;
+    cursor: pointer;
+}
+.image_box img{
+    width: 220px;
+    height: 255px;
+}
+.details p:nth-child(1){
+    font-weight: bold;
+}
+.details p:nth-child(2){
+    color: grey;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3){
+    font-weight: bold;
+    color: grey;
+}
+.details button{
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: red;
+    outline: none;
+    color: white;
+    border-radius: 17px;
+}
+
+.details button:hover{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 1px;
+}
