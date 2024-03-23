@@ -72,7 +72,7 @@ ShopPlusPlus is a full-stack web application for an online bookstore. It allows 
 
 9.  Deploy the build output to a hosting platform like Vercel or Netlify.
 10. Contact
-    For any inquiries or feedback, please contact [Your Name] via email at [princeram950@gmail.com].
+    For any inquiries or feedback, please contact [Sivakavi Rama Lingeswara Rao] via email at [princeram950@gmail.com].
 
 Project Link: (https://github.com/RamaLingeswaraRao950/ShopPlusPlus/)
 
