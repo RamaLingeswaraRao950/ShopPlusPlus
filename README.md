@@ -51,9 +51,10 @@ dependencies to install:
 npm install axios
 npm install mongoose
 npm install cors
+npm install express
 
 dev dependencies:
-npm install nodemon --save-dev
+npm install -D nodemon --save-dev
 npm install concurrently --save-dev
 
 4.  Usage:
@@ -84,5 +85,7 @@ npm install concurrently --save-dev
     For any inquiries or feedback, please contact [Sivakavi Rama Lingeswara Rao] via email at [princeram950@gmail.com].
 
 Project Link: (https://github.com/RamaLingeswaraRao950/ShopPlusPlus/)
+
+Deployement Link: (https://ram-shopplusplus.netlify.app/)
 
 Please remember to replace [RamaLingeswaraRao950], [Sivakavi Rama Lingeswara Rao], [princeram950@gmail.com], and [https://github.com/RamaLingeswaraRao950]
