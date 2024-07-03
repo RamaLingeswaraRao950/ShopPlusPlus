@@ -1,10 +1,6 @@
 # ShopPlusPlus
 
-ShopPlusPlus is a Full-Stack web application for an online bookstore. It is Designed to serve as an online bookstore, online bookshelf, offering to explore, interact with a vast array of books.
-
-# ShopPlusPlus
-
-ShopPlusPlus is a full-stack web application for an online bookstore. It allows users to sign up, log in, browse books.
+ShopPlusPlus is a Full-Stack web application for an online bookstore. It is Designed to serve as an online bookstore, online bookshelf, offering to explore, interact with a vast array of books.It allows users to sign up, log in, browse books.
 
 ## Technologies Used
 
